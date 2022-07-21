@@ -1,6 +1,6 @@
 {
   "name": "volto-site-settings",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Volto add-on that loads Site controlpanel settings",
   "main": "src/index.js",
   "repository": "https://github.com/collective/volto-site-settings",

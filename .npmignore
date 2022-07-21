@@ -1,0 +1,9 @@
+.editorConfig
+.project.eslintrc.js
+.release-it.json
+COMMITLINT.md
+Makefile
+babel.config.js
+commitlint.config.js
+cypress/
+jest-addon.config.js

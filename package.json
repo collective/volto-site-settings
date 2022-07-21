@@ -1,0 +1,38 @@
+{
+  "name": "volto-site-settings",
+  "version": "0.1.0",
+  "description": "Volto add-on that loads Site controlpanel settings",
+  "main": "src/index.js",
+  "repository": "https://github.com/collective/volto-site-settings",
+  "bugs": "https://github.com/collective/volto-site-settings/issues",
+  "author": "RedTurtle Technology <https://www.redturtle.it>",
+  "homepage": "https://github.com/collective/volto-site-settings#readme",
+  "license": "MIT",
+  "keywords": [
+    "volto-addon",
+    "volto",
+    "plone",
+    "react",
+    "site",
+    "settings"
+  ],
+  "scripts": {
+    "i18n": "rm -rf build/messages && NODE_ENV=production i18n --addon"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "lint-staged"
+    }
+  },
+  "dependencies": {
+    "@plone/scripts": "*"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "17.0.3",
+    "@commitlint/config-conventional": "17.0.3",
+    "@release-it/conventional-changelog": "5.0.0",
+    "husky": "8.0.1",
+    "release-it": "15.1.3"
+  }
+}

@@ -23,9 +23,9 @@
   },
   "devDependencies": {
     "@babel/eslint-parser": "7.22.15",
-    "@commitlint/config-conventional": "^16.0.0",
+    "@commitlint/config-conventional": "^17.6.6",
     "@plone/scripts": "^3.3.2",
-    "@release-it/conventional-changelog": "^3.3.0",
+    "@release-it/conventional-changelog": "^5.1.1",
     "eslint": "8.49.0",
     "eslint-config-prettier": "9.0.0",
     "eslint-config-react-app": "7.0.1",

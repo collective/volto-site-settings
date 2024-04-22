@@ -1,0 +1,9 @@
+.inline.field#site_title_translated .multilingual-widget .ui.input,
+.inline.field#site_subtitle .multilingual-widget .ui.input {
+  width: 100%;
+}
+img#field-site_logo-image,
+img#field-site_logo_footer-image,
+img#field-site_favicon-image {
+  background-color: #ccc;
+}

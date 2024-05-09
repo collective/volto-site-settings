@@ -1,5 +1,13 @@
 
 
+## [0.2.1](https://github.com/collective/volto-site-settings/compare/v0.2.0...v0.2.1) (2024-05-09)
+
+
+### Bug Fixes
+
+* addons dependencies ([012def3](https://github.com/collective/volto-site-settings/commit/012def335764ae1ca7af887e8f408bce3320483c))
+* typo ([81cb3f1](https://github.com/collective/volto-site-settings/commit/81cb3f1eab0e3c9e0794f36329e98f79f8b8ed6f))
+
 ## 0.2.0 (2024-04-22)
 
 

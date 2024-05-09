@@ -13,7 +13,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "addons: [
+  "addons": [
     "volto-multilingual-widget"
   ],
   "scripts": {

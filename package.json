@@ -13,6 +13,9 @@
   "publishConfig": {
     "access": "public"
   },
+  "addons: [
+    "volto-multilingual-widget"
+  ],
   "scripts": {
     "i18n": "rm -rf build/messages && NODE_ENV=production i18n --addon",
     "dry-release": "release-it --dry-run",

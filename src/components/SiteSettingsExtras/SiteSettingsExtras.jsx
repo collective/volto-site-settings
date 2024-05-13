@@ -9,10 +9,11 @@ const SiteSettingsExtras = (props) => {
     defaultValue: '/favicon.ico',
     getValue: true,
   });
+
   return (
     <>
       <Helmet titleTemplate={`%s - ${siteTitle}`} />
-      <Helmet link={[{ rel: 'shortcut icon', href: favicon }]} />
+      <Helmet link={[{ rel: 'icon', href: favicon }]} />
     </>
   );
 };

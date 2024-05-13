@@ -1,5 +1,12 @@
 
 
+## [0.2.2](https://github.com/collective/volto-site-settings/compare/v0.2.1...v0.2.2) (2024-05-13)
+
+
+### Bug Fixes
+
+* preview image in  RegistryImageWidget ([025600f](https://github.com/collective/volto-site-settings/commit/025600f584f2272626d02598833ead4492e1eba2))
+
 ## [0.2.1](https://github.com/collective/volto-site-settings/compare/v0.2.0...v0.2.1) (2024-05-09)
 
 

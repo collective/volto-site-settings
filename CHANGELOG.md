@@ -1,5 +1,12 @@
 
 
+## [0.2.3](https://github.com/collective/volto-site-settings/compare/v0.2.2...v0.2.3) (2024-05-13)
+
+
+### Bug Fixes
+
+* override Html.jsx component to enable load of favicon ([2b9cbd6](https://github.com/collective/volto-site-settings/commit/2b9cbd68e13932dbb13c37402281bd7d6ecc5573))
+
 ## [0.2.2](https://github.com/collective/volto-site-settings/compare/v0.2.1...v0.2.2) (2024-05-13)
 
 

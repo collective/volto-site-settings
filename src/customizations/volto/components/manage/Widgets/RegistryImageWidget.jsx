@@ -1,11 +1,13 @@
 /**
  * CUSTOMIZATIONS:
  * - customized 'imgsrc' to get url based on property filed name
+ * - customized onLoad to view image preview if there's no image uploaded yet.
+ *
  * RegistryImageWidget component.
  * @module components/manage/Widgets/RegistryImageWidget
  */
 
-import React from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { Button, Image, Dimmer } from 'semantic-ui-react';
 import { readAsDataURL } from 'promise-file-reader';
@@ -77,14 +79,13 @@ const RegistryImageWidget = (props) => {
   const intl = useIntl();
 
   const fileName = value?.split(';')[0];
-  const imgsrc = fileName
-    ? // ? `${toPublicURL('/')}@@site-logo/${atob(
-      //     fileName.replace('filenameb64:', ''),
-      //   )}`
-      `${toPublicURL('/')}registry-images/@@images/${id}/${atob(
-        fileName.replace('filenameb64:', ''),
-      )}`
-    : '';
+  const [imgsrc, setImgsrc] = useState(
+    fileName
+      ? `${toPublicURL('/')}registry-images/@@images/${id}/${atob(
+          fileName.replace('filenameb64:', ''),
+        )}`
+      : '',
+  );
 
   /**
    * Drop handler
@@ -105,8 +106,7 @@ const RegistryImageWidget = (props) => {
     reader.onload = function () {
       const fields = reader.result.match(/^data:(.*);(.*),(.*)$/);
       if (imageMimetypes.includes(fields[1])) {
-        let imagePreview = document.getElementById(`field-${id}-image`);
-        imagePreview.src = reader.result;
+        setImgsrc(reader.result);
       }
     };
     reader.readAsDataURL(files[0]);

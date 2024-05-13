@@ -51,6 +51,6 @@
     "@plone/volto": "^17.0.0"
   },
   "dependencies": {
-    "volto-multilingual-widget": "3.0.0"
+    "volto-multilingual-widget": "3.2.1"
   }
 }

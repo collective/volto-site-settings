@@ -1,5 +1,12 @@
 
 
+## [0.4.0](https://github.com/collective/volto-site-settings/compare/v0.3.0...v0.4.0) (2024-06-18)
+
+
+### Features
+
+* handle getParentt in site_logo ([ad91c90](https://github.com/collective/volto-site-settings/commit/ad91c9060000e51a1966682e94947559359ae8b1))
+
 ## [0.3.0](https://github.com/collective/volto-site-settings/compare/v0.2.3...v0.3.0) (2024-06-18)
 
 

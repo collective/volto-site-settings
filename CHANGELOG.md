@@ -1,5 +1,12 @@
 
 
+## [0.4.1](https://github.com/collective/volto-site-settings/compare/v0.4.0...v0.4.1) (2024-06-18)
+
+
+### Maintenance
+
+* changed site title widget ([0e9817a](https://github.com/collective/volto-site-settings/commit/0e9817ac46a6c1a7fb7c5708bf957aa2df99f9fe))
+
 ## [0.4.0](https://github.com/collective/volto-site-settings/compare/v0.3.0...v0.4.0) (2024-06-18)
 
 

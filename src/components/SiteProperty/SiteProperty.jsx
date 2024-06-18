@@ -55,7 +55,7 @@ const SiteProperty = ({
     case 'site_logo':
       const logo_height = config.settings?.['volto-site-settings']?.logo_height;
 
-      if (subsite && subsite.subsite_logo) {
+      if (subsite && subsite.subsite_logo && !getParent) {
         const logo_scale = logo_height / subsite.subsite_logo.height;
 
         value = (

@@ -1,5 +1,5 @@
 import { MultilingualWidget } from 'volto-multilingual-widget';
-import { TextWidget } from '@plone/volto/components';
+import { TextareaWidget } from '@plone/volto/components';
 import RegistryImageWidget from '@plone/volto/components/manage/Widgets/RegistryImageWidget';
 import SiteProperty from './components/SiteProperty/SiteProperty';
 import SiteSettingsExtras from './components/SiteSettingsExtras/SiteSettingsExtras';
@@ -32,11 +32,11 @@ const applyConfig = (config) => {
   config.settings.filterControlPanelsSchema = filterControlPanelsSchema;
 
   config.widgets.id.site_title_translated = MultilingualWidget(
-    (props) => <TextWidget {...props} wrapped={false} />,
+    (props) => <TextareaWidget {...props} wrapped={false} />,
     [],
   );
   config.widgets.id.site_subtitle = MultilingualWidget(
-    (props) => <TextWidget {...props} wrapped={false} />,
+    (props) => <TextareaWidget {...props} wrapped={false} />,
     [],
   );
   config.widgets.id.site_logo = RegistryImageWidget;

@@ -1,5 +1,12 @@
 
 
+## [0.3.0](https://github.com/collective/volto-site-settings/compare/v0.2.3...v0.3.0) (2024-06-18)
+
+
+### Features
+
+* handle site_title with \n ([eca0817](https://github.com/collective/volto-site-settings/commit/eca08177f8aee3a663bbbe43895133877568cae0))
+
 ## [0.2.3](https://github.com/collective/volto-site-settings/compare/v0.2.2...v0.2.3) (2024-05-13)
 
 

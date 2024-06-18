@@ -3,12 +3,14 @@ import { Helmet } from '@plone/volto/helpers';
 import { SiteProperty } from 'volto-site-settings';
 
 const SiteSettingsExtras = (props) => {
-  const siteTitle = SiteProperty({ property: 'site_title', getValue: true });
+  let siteTitle = SiteProperty({ property: 'site_title', getValue: true });
   const favicon = SiteProperty({
     property: 'site_favicon',
     defaultValue: '/favicon.ico',
     getValue: true,
   });
+
+  siteTitle = siteTitle.replaceAll('\\n', ' - ');
 
   return (
     <>

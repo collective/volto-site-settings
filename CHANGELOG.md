@@ -1,5 +1,12 @@
 
 
+## [0.4.3](https://github.com/collective/volto-site-settings/compare/v0.4.2...v0.4.3) (2024-06-27)
+
+
+### Bug Fixes
+
+* handle missing value ([cabdb31](https://github.com/collective/volto-site-settings/commit/cabdb31d2fa7a645c09e32148595f6a56ee5db77))
+
 ## [0.4.2](https://github.com/collective/volto-site-settings/compare/v0.4.1...v0.4.2) (2024-06-27)
 
 

@@ -28,8 +28,12 @@ const SiteProperty = ({
   ...imageProps
 }) => {
   const site = useSelector((state) => state.site.data); //loaded by asyncPropExtender from volto
-
   const subsite = useSelector((state) => state.subsite?.data); //if you have volto-subsites installed
+  const currentLang = useSelector((state) => state.intl.locale);
+
+  const hasSubsite =
+    subsite && Object.entries(subsite).length && subsite.constructor === Object;
+
   const property_name = getParent ? 'parent_' + property : property;
 
   let site_property =
@@ -41,14 +45,24 @@ const SiteProperty = ({
 
   let value = site_property ?? defaultValue ?? defaultFromConfig;
 
+  if (subsite && getParent) {
+    value = site?.['plone.' + property] ?? defaultValue ?? defaultFromConfig;
+  }
+
   switch (property) {
     case 'site_title':
-      if (subsite) {
+      if (value.constructor === Object) {
+        value = value[currentLang] || value.default;
+      }
+      if (hasSubsite && !getParent) {
         value = subsite?.title ?? value;
       }
       break;
     case 'site_subtitle':
-      if (subsite) {
+      if (value.constructor === Object) {
+        value = value[currentLang] || '';
+      }
+      if (hasSubsite && !getParent) {
         value = subsite?.description ?? value;
       }
       break;
@@ -104,10 +118,6 @@ const SiteProperty = ({
       break;
     default:
       break;
-  }
-
-  if (subsite && getParent) {
-    value = site?.['plone.' + property] ?? defaultValue ?? defaultFromConfig;
   }
 
   if (forceValue) {

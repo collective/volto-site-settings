@@ -1,5 +1,12 @@
 
 
+## [0.4.2](https://github.com/collective/volto-site-settings/compare/v0.4.1...v0.4.2) (2024-06-27)
+
+
+### Bug Fixes
+
+* handle new data format from backend ([9b684ab](https://github.com/collective/volto-site-settings/commit/9b684ab7e2ea628ef33521a4d5e4b967dffc9271))
+
 ## [0.4.1](https://github.com/collective/volto-site-settings/compare/v0.4.0...v0.4.1) (2024-06-18)
 
 

@@ -51,7 +51,7 @@ const SiteProperty = ({
 
   switch (property) {
     case 'site_title':
-      if (value.constructor === Object) {
+      if (value && value.constructor === Object) {
         value = value[currentLang] || value.default;
       }
       if (hasSubsite && !getParent) {
@@ -59,7 +59,7 @@ const SiteProperty = ({
       }
       break;
     case 'site_subtitle':
-      if (value.constructor === Object) {
+      if (value && value.constructor === Object) {
         value = value[currentLang] || '';
       }
       if (hasSubsite && !getParent) {

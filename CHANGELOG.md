@@ -1,5 +1,12 @@
 
 
+## [0.4.4](https://github.com/collective/volto-site-settings/compare/v0.4.3...v0.4.4) (2024-07-19)
+
+
+### Bug Fixes
+
+* race condition while rendering site title ([c96bc0c](https://github.com/collective/volto-site-settings/commit/c96bc0c13decd2cecdf95e9133433a3016c7ac5a))
+
 ## [0.4.3](https://github.com/collective/volto-site-settings/compare/v0.4.2...v0.4.3) (2024-06-27)
 
 

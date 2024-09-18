@@ -10,7 +10,7 @@ const SiteSettingsExtras = (props) => {
     getValue: true,
   });
 
-  siteTitle = siteTitle?.replaceAll('\\n', ' - ') ?? '';
+  siteTitle = siteTitle ? siteTitle.replaceAll('\\n', ' - ') : '';
 
   return (
     <>

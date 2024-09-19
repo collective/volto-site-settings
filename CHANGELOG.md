@@ -1,5 +1,12 @@
 
 
+## [0.4.5](https://github.com/collective/volto-site-settings/compare/v0.4.4...v0.4.5) (2024-09-19)
+
+
+### Bug Fixes
+
+* site title null ([7704bcd](https://github.com/collective/volto-site-settings/commit/7704bcdc8d8b6fb8582e74db1484b0dcda955ef8))
+
 ## [0.4.4](https://github.com/collective/volto-site-settings/compare/v0.4.3...v0.4.4) (2024-07-19)
 
 

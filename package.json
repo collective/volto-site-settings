@@ -1,6 +1,6 @@
 {
   "name": "volto-site-settings",
-  "version": "0.4.4",
+  "version": "0.4.5",
   "description": "volto-site-settings: Volto add-on",
   "main": "src/index.js",
   "license": "MIT",

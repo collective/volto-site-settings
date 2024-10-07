@@ -1,5 +1,13 @@
 
 
+## [0.4.6](https://github.com/collective/volto-site-settings/compare/v0.4.5...v0.4.6) (2024-10-07)
+
+
+### Maintenance
+
+* moved RegistryImageWidget under Widgets component, and customize via config to work with older versions of volto ([ada9ae1](https://github.com/collective/volto-site-settings/commit/ada9ae10008390e0afed488c9659a104b80fc46d))
+* packagemanager ([2ffb43c](https://github.com/collective/volto-site-settings/commit/2ffb43ca89ae570e29c06fd26d9abcc60ae33850))
+
 ## [0.4.5](https://github.com/collective/volto-site-settings/compare/v0.4.4...v0.4.5) (2024-09-19)
 
 

@@ -1,6 +1,6 @@
 import { MultilingualWidget } from 'volto-multilingual-widget';
 import { TextareaWidget } from '@plone/volto/components';
-import RegistryImageWidget from '@plone/volto/components/manage/Widgets/RegistryImageWidget';
+import RegistryImageWidget from './components/manage/Widgets/RegistryImageWidget';
 import SiteProperty from './components/SiteProperty/SiteProperty';
 import SiteSettingsExtras from './components/SiteSettingsExtras/SiteSettingsExtras';
 import { filterControlPanelsSchema } from './config/ControlPanels';

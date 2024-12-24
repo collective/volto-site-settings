@@ -1,5 +1,12 @@
 
 
+## [0.4.7](https://github.com/collective/volto-site-settings/compare/v0.4.6...v0.4.7) (2024-12-24)
+
+
+### Maintenance
+
+* removed imports from volto barrel files ([4c4e40e](https://github.com/collective/volto-site-settings/commit/4c4e40e9864227a0e115663cedf2d27acaf5340b))
+
 ## [0.4.6](https://github.com/collective/volto-site-settings/compare/v0.4.5...v0.4.6) (2024-10-07)
 
 

@@ -13,11 +13,12 @@ import { Button, Image, Dimmer } from 'semantic-ui-react';
 import { readAsDataURL } from 'promise-file-reader';
 import { injectIntl } from 'react-intl';
 import deleteSVG from '@plone/volto/icons/delete.svg';
-import { Icon, FormFieldWrapper } from '@plone/volto/components';
+import FormFieldWrapper from '@plone/volto/components/manage/Widgets/FormFieldWrapper';
+import Icon from '@plone/volto/components/theme/Icon/Icon';
 import loadable from '@loadable/component';
 import { defineMessages, useIntl } from 'react-intl';
-import { toPublicURL, validateFileUploadSize } from '@plone/volto/helpers';
-
+import { validateFileUploadSize } from '@plone/volto/helpers/FormValidation/FormValidation';
+import { toPublicURL } from '@plone/volto/helpers/Url/Url';
 const imageMimetypes = [
   'image/png',
   'image/jpeg',

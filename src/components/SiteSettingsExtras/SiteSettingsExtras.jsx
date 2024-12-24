@@ -1,5 +1,5 @@
 import React from 'react';
-import { Helmet } from '@plone/volto/helpers';
+import Helmet from '@plone/volto/helpers/Helmet/Helmet';
 import { SiteProperty } from 'volto-site-settings';
 
 const SiteSettingsExtras = (props) => {

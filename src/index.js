@@ -1,5 +1,5 @@
 import { MultilingualWidget } from 'volto-multilingual-widget';
-import { TextareaWidget } from '@plone/volto/components';
+import { TextareaWidget } from '@plone/volto/components/manage/Widgets';
 import RegistryImageWidget from './components/manage/Widgets/RegistryImageWidget';
 import SiteProperty from './components/SiteProperty/SiteProperty';
 import SiteSettingsExtras from './components/SiteSettingsExtras/SiteSettingsExtras';

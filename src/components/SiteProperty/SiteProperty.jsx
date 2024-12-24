@@ -1,6 +1,6 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
-import { flattenToAppURL } from '@plone/volto/helpers';
+import { flattenToAppURL } from '@plone/volto/helpers/Url/Url';
 import config from '@plone/volto/registry';
 
 const ImageProperty = ({ value, alt = '', ...imageProps }) => {
